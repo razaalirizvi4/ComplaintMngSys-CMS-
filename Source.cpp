@@ -20,7 +20,7 @@ int main() {
 			int number;
 			read >> number;
 			read.close();
-			cout << "Thank you for lodging your complaint, your time is very valuable to us. We will get back to you as soon as possible on " << ptr << "\nRegards, Joe Mama\nyour complaint id is " << number << endl;
+			cout << "Thank you for lodging your complaint, your time is very valuable to us. We will get back to you as soon as possible on " << ptr << "\nRegards, \nyour complaint id is " << number << endl;
 			delete[] ptr;
 			ptr = nullptr;
 			out << number << ". " << arr << endl;
